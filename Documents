@@ -1,0 +1,40 @@
+DB Tables
+
+
+UserAccount
+
+1. AccountNo – Int, Primary Key, Unique, Auto-Increment.
+2. FullName- Not Null, String.
+3.
+4. Address- NotNull, String
+5. PhoneNo- Int, Not Null Unique
+6. EmailID/UserID- Not Null , unique
+7. Password-
+8. LoanID- Foreign Key
+9. CurrentBalance-
+
+
+LoanDetails
+
+1. LoanID-
+2. AccountNoUser
+    LoanType
+3. TotalPrincipalAmount
+4. Interest
+5. Status
+6. Tenure.
+7 BeneficiaryDetails.
+
+Loan Repayment Schedule
+
+1. YearMonth
+2. EMI
+3.Principal Amount
+4.InterestAmount
+5. Outstanding
+6. Status
+
+
+
+
+
